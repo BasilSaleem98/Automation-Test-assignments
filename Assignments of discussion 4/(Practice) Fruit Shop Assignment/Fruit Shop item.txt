@@ -1,1 +1,40 @@
+package com.axsos.assignments.D4;
 
+import java.util.ArrayList;
+
+class FruitShopitem {
+	private ArrayList < String > Fruit  = new  ArrayList < String > ( ) ;
+	
+	public FruitShopitem () {this.Fruit=new ArrayList<String>();}
+	
+	// getter
+		public ArrayList<String> getFruit() {
+			return Fruit; }
+		//add fruit
+		public void addFruit(String Fruit) {
+	        this.Fruit.add(Fruit);
+	    }
+  //know size if array
+		public int size() {
+			return Fruit.size() ;
+		}
+    //getter fot specific index
+		public String get(int index) {
+			return Fruit.get(index) ;
+		}
+
+		public Object contains() {
+			
+			return Fruit.contains(Fruit) ;
+		}
+
+		public Object length() {
+			return Fruit.size() ;
+		}
+    
+		public boolean contains(String fruitName ) {
+			
+			return Fruit.contains(fruitName) ;
+		}
+
+    }
