@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class primerNumberCheckerTest {
 	
-	private String csvPath = "E:\\eclipse\\eclipse workspace\\QABootcamp\\src\\com\\axsos\\assignments\\D5\\resources\\data.csv";
+	private String csvPath = "(your csv path\\data.csv)";
 	
 	//calling readCSV to return csv data to data provider
 	@DataProvider(name="dataInput")
